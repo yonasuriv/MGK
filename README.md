@@ -1,27 +1,37 @@
-#  Machine Gun Kelly Password Cracker Manual
 
-> QR Code to the GitHub Repository of MGK
-![qr](https://user-images.githubusercontent.com/59540565/202887058-71f016eb-f217-4270-9871-2f336ae2543c.png)
+![MGK](https://user-images.githubusercontent.com/59540565/202909145-17b11452-9393-46fb-9031-939a03ac7172.png)
 
-## Assignment
+# Assignment
+
+![Disclaimer](https://user-images.githubusercontent.com/59540565/202909148-f8ace8b2-47c0-4eb8-97d1-0b3d0ab9e324.png)
+
+
 1. Write your own basic version of the John The Ripper password cracking tool using Python.
 2. Demonstrate it.
 3. Talk us through your code and how you decided to approach the project. .
 4. Your program should as a minimum be able to perform bruteforce and dictionary attacks, **everything else is left up to you to decide**.
 
 ## About
-**MGK** is a ripoff version of **John the Ripper**.
+**MGK** was created to be a basic and light-weight version of **John the Ripper**.
+ 
+It's written in **Python** as the main coding language,
+and the GUI it's written using **Shell Scripting** *(BASH)*.
+ 
+It's main functionalities are **Dictionary Attacks** and **Brute Forcing Attacks**.
 
-It's written in **Python** as the main coding language embedded with **Shell Scripting (BASH)** for the GUI.
+### Default Settings
 
-It's a simple and light-weight version made in just 5 days as a test for [**WithSecure**](https://www.withsecure.com "WithSecure") Company.
+- By default it comes with the **SHA-256 HASH** for encrypted password as an encryption standard for most of the websites on the internet.
+- By default it comes as a **PIN Cracker**, meaning it will only perform numbers attacks (0-9).
 
-**This is for educational purposes only and SHOULD NEVER be used in an Illegal Context.**
+*The REASON for this is to prove the POTENTIAL of the script in matter of SECONDS.*
 
-![VirtualBox_Parrot_20_11_2022_06_08_49](https://user-images.githubusercontent.com/59540565/202886668-aef8ef09-14f6-4f5c-b4d4-1418b7c24f13.png)
+**ALL THE DEFAULT SETTINGS CHAN BE CHANGED** (*see how below*)
 
-## Dependencies
+### Dependencies
 `python3`
+
+![QR-Updates](https://user-images.githubusercontent.com/59540565/202909147-18280669-b8f3-406e-9c46-f616403a2c62.png)
 
 ## Features
 ### Hash Generator
@@ -29,9 +39,9 @@ Although it is a feature of MGK, it runs separately.
 
 To run it simply type on the console `python3 hashgen.py `
 
-It lets you convert ANY password into SHA-256 Hash. 
+It lets you convert ANY password into SHA-256 HASH. 
 
-You can also modify it to convert the password into another secure hash algorithms.
+You can also modify it to convert the password into another Secure Hash Algorithm.
 
 Supported Types: **MD5**, **SHA1**, **SHA224**, **SHA256**, **SHA384**, and **SHA512**
 
@@ -43,9 +53,9 @@ To do it, simply open the HASHGEN.py file and modify the line 8, changing the sh
  
 **MGK** comes with a dictionary of arround 900 potential passwords. 
  
- Theres is also an option to upgrade MGK with two sets of dictionaries that are located in the folder 'Password Atlas' as torrent files.
+ Theres is also an option to upgrade MGK with two sets of dictionaries that are located in the folder 'Password Atlas' as **torrent** files.
  
-1. **Human**: Contains over 64 MILLON *Real Human* passwords leaked from various website databases.
+1. **Human-Only**: Contains over 64 MILLON *Real Human* passwords leaked from various website databases.
 #### Size: 247 MB compressed. 684 MB uncompressed. 
 2. **Arsenal-90**: Contains almost every wordlist, dictionary, and password database leaks, including every word in the Wikipedia databases (pages-articles, retrieved 2010, all languages) as well as lots of books from Project Gutenberg. It also includes the passwords from some low-profile database breaches that were being sold in the underground years ago.
 #### Size: 4.2 GB compressed. 15 GB uncompressed. 
@@ -55,7 +65,7 @@ The format of the lists are in an standard text file sorted in non-case-sensitiv
 
 #### To update the Dictionary of MGK, simply add the passwords to the file `passwords_list.txt`
 
-> **WARNING:** Opening a text file that's heavy it may cause your computer to freeze or even crash, to avoid that I've creathed a File Splitter Script.
+> **WARNING:** Opening a text file that's heavy it may cause your computer to freeze or even crash, to avoid that use the File Splitter (see below)
 
 ### File Spliter
 Load your **MGK** with **Incendiary Bullets**, letting you split big texts files or dictionaries.
