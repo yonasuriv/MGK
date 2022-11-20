@@ -10,7 +10,9 @@
 4. Your program should as a minimum be able to perform bruteforce and dictionary attacks, **everything else is left up to you to decide**.
 
 ## About
-**MGK** is a ripoff version of **John the Ripper** using **Python** as the main coding language embedded with **Shell Scripting (BASH)**.
+**MGK** is a ripoff version of **John the Ripper**.
+
+It's written in **Python** as the main coding language embedded with **Shell Scripting (BASH)** for a better looking interface..
 
 It's a simple and light-weight version made in just 5 days as a test for [**WithSecure**](https://www.withsecure.com "WithSecure") Company.
 
@@ -24,23 +26,26 @@ It's a simple and light-weight version made in just 5 days as a test for [**With
 ## Features
 ### Hash Generator
 Although it is a feature of MGK, it runs separately.
+
 To run it simply type on the console `python3 hashgen.py `
 
 It lets you convert ANY password into SHA-256 Hash. 
 
 You can also modify it to convert the password into another secure hash algorithms.
+
 Supported Types: **MD5**, **SHA1**, **SHA224**, **SHA256**, **SHA384**, and **SHA512**
 
 To do it, simply open the HASHGEN.py file and modify the line 8, changing the sha256 for the one you like:
+
 `hash = hashlib.sha256(password.encode("utf-8"))`
 
 ### Dictionary Attack
  
 **MGK** comes with a dictionary of arround 900 potential passwords. 
  
- Theres is also an option to upgrade MGK with two sets of dictionaries that are located in the folder 'MGK Dictionary Upgade' as torrent files.
+ Theres is also an option to upgrade MGK with two sets of dictionaries that are located in the folder 'Password Atlas' as torrent files.
  
-1. **Human Only:** Contains over 64 MILLON *Real Human* passwords leaked from various website databases .
+1. **Human Only:** Contains over 64 MILLON *Real Human* passwords leaked from various website databases.
 #### Size: 247 MB compressed. 684 MB uncompressed. 
 2. **Final**: Contains almost every wordlist, dictionary, and password database leaks, including every word in the Wikipedia databases (pages-articles, retrieved 2010, all languages) as well as lots of books from Project Gutenberg. It also includes the passwords from some low-profile database breaches that were being sold in the underground years ago.
 #### Size: 4.2 GB compressed. 15 GB uncompressed. 
@@ -53,12 +58,15 @@ The format of the lists are in an standard text file sorted in non-case-sensitiv
 ### Brute Force Attack
 
 **MGK** is by default coded to be a **PIN Cracker**, meaning that it will perform ONLY number attacks.
+
 The reason of this is to see the results in the fastest time possible, trying the combination of all ten numbers (**0-9**)
 
 You can also modify it to be get the full character list:
+
 **0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~**
 
 To do so, simply open the file BruteForceAttack.py and modify the value assigned to the variable char on the line 11:
+
 `chars = string.printable[:10]`
 
 #### Manual way: 
