@@ -1,14 +1,13 @@
 #!/bin/bash
 . ./.shcss.sh
 
-# To make the script work, put your Passwords Text File in the Dictionary Folder
-clear
 echo
 echo "You are about to load MGK with incendiary bullets."
 sleep 3
 echo
-echo " Please have in mind 2 things:"
+echo " Please have in mind a few things:"
 echo ""
+echo " 1) $red Your Passwords TXT File should be under the directory DICTIONARY. $end"
 echo " 1) $red FILE NAME should be EXACT. $end"
 echo " 2) $red You don't have to write the extension, as for the moment the script ONLY suport .TXT files. $end"
 echo
