@@ -45,9 +45,9 @@ To do it, simply open the HASHGEN.py file and modify the line 8, changing the sh
  
  Theres is also an option to upgrade MGK with two sets of dictionaries that are located in the folder 'Password Atlas' as torrent files.
  
-1. **Human Only:** Contains over 64 MILLON *Real Human* passwords leaked from various website databases.
+1. **Human**: Contains over 64 MILLON *Real Human* passwords leaked from various website databases.
 #### Size: 247 MB compressed. 684 MB uncompressed. 
-2. **Final**: Contains almost every wordlist, dictionary, and password database leaks, including every word in the Wikipedia databases (pages-articles, retrieved 2010, all languages) as well as lots of books from Project Gutenberg. It also includes the passwords from some low-profile database breaches that were being sold in the underground years ago.
+2. **Arsenal-90**: Contains almost every wordlist, dictionary, and password database leaks, including every word in the Wikipedia databases (pages-articles, retrieved 2010, all languages) as well as lots of books from Project Gutenberg. It also includes the passwords from some low-profile database breaches that were being sold in the underground years ago.
 #### Size: 4.2 GB compressed. 15 GB uncompressed. 
 
 The format of the lists are in an standard text file sorted in non-case-sensitive alphabetical order. 
