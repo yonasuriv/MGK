@@ -1,8 +1,7 @@
 #!/bin/bash
-. ./.shcss.sh
+. ./.Assets/SHCSS.sh
 
-echo
-echo "You are about to load MGK with incendiary bullets."
+echo "You are about to load MGK with Incendiary Bullets (Dictionary File Splitter)."
 sleep 3
 echo
 echo " Please have in mind a few things:"
