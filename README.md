@@ -55,6 +55,15 @@ The format of the lists are in an standard text file sorted in non-case-sensitiv
 
 #### To update the Dictionary of MGK, simply add the passwords to the file `passwords_list.txt`
 
+> **WARNING:** Opening a text file that's heavy it may cause your computer to freeze or even crash, to avoid that I've creathed a File Splitter Script.
+
+### File Spliter
+Load your **MGK** with **Incendiary Bullets**, letting you split big texts files or dictionaries.
+
+To do it simply head to *File Splitter* in *Password Atlas* and run `sh IncendiaryBullets.sh` in the terminal.
+
+Your file to be splitted should be placed in the **Dictionary** folder.
+
 ### Brute Force Attack
 
 **MGK** is by default coded to be a **PIN Cracker**, meaning that it will perform ONLY number attacks.
