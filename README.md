@@ -33,6 +33,9 @@ It's main functionalities are **Dictionary Attacks** and **Brute Forcing Attacks
 
 ![QR-Updates](https://user-images.githubusercontent.com/59540565/202909147-18280669-b8f3-406e-9c46-f616403a2c62.png)
 
+## Start
+To start MGK, open the terminal and write `sh MGK.sh`
+
 ## Features
 ### Hash Generator
 Although it is a feature of MGK, it runs separately.
