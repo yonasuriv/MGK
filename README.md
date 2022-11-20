@@ -4,7 +4,7 @@
 ![qr](https://user-images.githubusercontent.com/59540565/202887058-71f016eb-f217-4270-9871-2f336ae2543c.png)
 
 ## Assignment
-1. Write your own basic version of the John The Ripper password cracking tool using Python,.
+1. Write your own basic version of the John The Ripper password cracking tool using Python.
 2. Demonstrate it.
 3. Talk us through your code and how you decided to approach the project. .
 4. Your program should as a minimum be able to perform bruteforce and dictionary attacks, **everything else is left up to you to decide**.
@@ -12,7 +12,7 @@
 ## About
 **MGK** is a ripoff version of **John the Ripper**.
 
-It's written in **Python** as the main coding language embedded with **Shell Scripting (BASH)** for a better looking interface..
+It's written in **Python** as the main coding language embedded with **Shell Scripting (BASH)** for the GUI.
 
 It's a simple and light-weight version made in just 5 days as a test for [**WithSecure**](https://www.withsecure.com "WithSecure") Company.
 
