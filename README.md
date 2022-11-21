@@ -6,8 +6,9 @@
 3. [Launch the Script](#start)
 4. [Dependencies](#dependencies)
 5. [Features & Tools](#features)
-6. [Configuration](#configuration)
-7. [Default Settings](#default-settings)
+6. [Default Settings](#default-settings)
+7. [Configuration](#configuration)
+
 
 ----
 
@@ -24,7 +25,7 @@ It's written in **Python** as the main coding language, and the GUI it's written
  
 It's main functionalities are **Dictionary Attacks** and **Brute Forcing**.
 
-### Approach
+### APPROACH
 
  1. #### Created the Script on **Python**: **HASH Generator**.
  	*Passwords are stored on web servers as hashes, not plain text (usually), so therefore, I've decided to use the hashlib module on python for secure hashes that supports MD5, SHA1, SHA224, SHA256, SHA384, and SHA512. I'll be using SHA256 since I think it's one of the most common used right now on the internet and to give the final program an extra functionality.*
