@@ -1,15 +1,27 @@
+# Importing hashlib for the secure hashes and messages digests
 import hashlib
+
+# Importing time module for the function sleep
+import time
+
 user_hash_dict = {}
 
-# We gonna open all the passwords on read mode as a file that are located under the directory Passwords Lists
-# I'm gonna add a wildcard so users can upload other passwords or dictionaries in .txt format 
+print("Preparing the DE-HASHER Weapon Attachment...")
+time.sleep(3)
+print()
+print("Lets the purge begin!")
+print()
+time.sleep(5)
+
+# Opens the passwords file on read mode as a file 
 with open ("PasswordsList.txt", "r") as f:
     passwords_list = f.read().splitlines()
 
+# Opens the Username and Hashed Passwords file on read mode as a file 
 with open("Username-HashedPasswords.txt", "r") as f:
     username_hashed_passwords = f.read().splitlines()
     for user_hash in username_hashed_passwords:
-        # Here we are splitting the username from the hashes taking the : as entry point, using the 0 and 1 index to select the username and the hashed password
+        # Splitting the username from the hashes taking the : as entry point, using the 0 and 1 index to select the username and the hashed password
         username = user_hash.split(":")[0]
         hash = user_hash.split(":")[1]
         user_hash_dict[username] = hash
