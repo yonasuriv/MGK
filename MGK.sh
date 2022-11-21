@@ -31,7 +31,7 @@ read selection
 echo
 case $selection in
   1) python3 .Dictionary.py; credits;;
-  2) python3 .BruteForcek.py ; credits;;
+  2) python3 .BruteForce.py ; credits;;
   3) python3 .HASHGEN.py;;
   4) sh .FileSplitter.sh;;
   5) python3 .addpwd.py ; credits;;
