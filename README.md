@@ -1,15 +1,13 @@
 
 ![MGK](https://user-images.githubusercontent.com/59540565/202909145-17b11452-9393-46fb-9031-939a03ac7172.png)
 # TABLE OF CONTENTS
-1. [Disclaimer](#start)
-2. [About](#about)
-3. [Approach](#approach)
-4. [Launch the Script](#start)
-5. [Dependencies](#dependencies)
-6. [Features & Tools](#features)
-7. [Configuration](#configuration)
-8. [Default Settings](#default-settings)
-9. [Updates](#QR-Updates)
+1. [About](#about)
+2. [Approach](#approach)
+3. [Launch the Script](#start)
+4. [Dependencies](#dependencies)
+5. [Features & Tools](#features)
+6. [Configuration](#configuration)
+7. [Default Settings](#default-settings)
 
 ----
 
