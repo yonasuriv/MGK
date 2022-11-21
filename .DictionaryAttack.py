@@ -14,7 +14,7 @@ print()
 time.sleep(5)
 
 # Opens the passwords file on read mode as a file 
-with open ("Passwords-List.txt", "r") as f:
+with open ("Wordlist.txt", "r") as f:
     passwords_list = f.read().splitlines()
 
 # Opens the Username and Hashed Passwords file on read mode as a file 
