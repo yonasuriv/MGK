@@ -1,5 +1,5 @@
 #!/bin/bash
-. ./.Assets/SHCSS.sh
+. ./.assets/SHCSS.sh
 
 echo "You are about to load MGK with Incendiary Bullets (Dictionary File Splitter)."
 sleep 3

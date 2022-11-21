@@ -103,7 +103,7 @@ while(guess_password != password):
 
 # If the password is equal to the one entered, it will show the final output (result)
 	if(guess_password == list(password)):
-		print("Your PIN/Password is: " + "".join(guess_password))
+		print("🆃🅷🅴 🅵🅾🆁🅲🅴🅳 🅿🅰🆂🆂🆆🅾🆁🅳 🆆🅰🆂 " + "".join(guess_password))
 		break
 		exit
 

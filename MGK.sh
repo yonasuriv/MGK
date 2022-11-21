@@ -1,5 +1,5 @@
 #!/bin/bash
-. ./.Assets/SHCSS.sh
+. ./.assets/SHCSS.sh
 
 logo () {
 echo """

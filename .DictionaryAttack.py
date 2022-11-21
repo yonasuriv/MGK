@@ -1,34 +1,56 @@
-# Importing hashlib for the secure hashes and messages digests
-import hashlib
-
-# Importing time module for the function sleep
+# Using time module for the function sleep
 import time
 
-user_hash_dict = {}
+# Adding colors to the terminal
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
 
+
+# Adding sleep time and text output to make the script look more modern
 print("Preparing the DE-HASHER Weapon Attachment...")
-time.sleep(3)
+time.sleep(4)
 print()
-print("Lets the purge begin!")
+
+# Executes all the modules for all the secure hashes to check for all the passwords stored in wordlists with all the hashes below
+# Print an input everytime it changes module
+print(f"{bcolors.OKGREEN}Loading MD5 Bullets{bcolors.ENDC}")
 print()
-time.sleep(5)
+time.sleep(1)
+exec(open("./.modules/dictionaryattack/MD5.py").read())
 
-# Opens the passwords file on read mode as a file 
-with open ("Wordlist.txt", "r") as f:
-    passwords_list = f.read().splitlines()
+print(f"{bcolors.OKGREEN}Loading SHA1 Bullets{bcolors.ENDC}")
+print()
+time.sleep(1)
+exec(open("./.modules/dictionaryattack/SHA1.py").read())
 
-# Opens the Username and Hashed Passwords file on read mode as a file 
-with open("Username-Hashed-Passwords.txt", "r") as f:
-    username_hashed_passwords = f.read().splitlines()
-    for user_hash in username_hashed_passwords:
-        # Splitting the username from the hashes taking the : as entry point, using the 0 and 1 index to select the username and the hashed password
-        username = user_hash.split(":")[0]
-        hash = user_hash.split(":")[1]
-        user_hash_dict[username] = hash
+print(f"{bcolors.OKGREEN}Loading SHA224 Bullets{bcolors.ENDC}")
+print()
+time.sleep(1)
+exec(open("./.modules/dictionaryattack/SHA224.py").read())
 
-for password in passwords_list:
-    # Get the HASH for the Password List
-    hashed_password = hashlib.sha256(password.encode('utf-8')).hexdigest()
-    for username, hash in user_hash_dict.items():
-        if hashed_password == hash:
-            print(f'︻╦̵̵͇̿̿̿̿╤── MGK SHOOTED AN USER, LOOTING HIS PASSWORD:\n\n{username}:{password}\n')
+print(f"{bcolors.OKGREEN}Loading SHA256 Bullets{bcolors.ENDC}")
+print()
+time.sleep(2)
+exec(open("./.modules/dictionaryattack/SHA256.py").read())
+
+print(f"{bcolors.OKGREEN}Loading SHA384 Bullets{bcolors.ENDC}")
+print()
+time.sleep(2)
+exec(open("./.modules/dictionaryattack/SHA384.py").read())
+
+print(f"{bcolors.OKGREEN}Loading SHA512 Bullets{bcolors.ENDC}")
+print()
+time.sleep(2)
+exec(open("./.modules/dictionaryattack/SHA512.py").read())
+
+print("🅲🅰🆁🅽🅰🅶🅴 🅴🅽🅳🅴🅳")
+print()
+
