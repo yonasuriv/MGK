@@ -29,11 +29,13 @@ It's main functionalities are **Dictionary Attacks** and **Brute Forcing**.
  1. Created the Script on **Python**: HASH Generator.
  2. Created the Script on **Python**: Bruce Force.
  3. Created the Script on **Python**: Dictionary Attack.
- 4. Created the Script on **BASH**: Dictionary File Splitter 
+ 4. Created the Script on **Python**: to permanently add custom passwords to the Password List.
+	 *(for Dictionary Attack)*
+ 6. Created the Script on **BASH**: Dictionary File Splitter 
 	*This was created after playing with the Dictionary Attack, and after seeing it working, I downloaded some really-heavy dictionaries but when I tried to open it my computer froze, so this will avoid that at all costs.*
- 5. Connect all the scripts using **BASH** for the interface.
+ 7. Connect all the scripts using **BASH** for the interface.
 	 *Simply to be more creative and for more fun.*
- 7. Added *ASCII Art* and *Colors* to make the Script more User Friendly.
+ 8. Added *ASCII Art* and *Colors* to make the Script more User Friendly.
 
 
 
