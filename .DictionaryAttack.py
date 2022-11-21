@@ -13,7 +13,6 @@ class bcolors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
-
 # Adding sleep time and text output to make the script look more modern
 print("Preparing the DE-HASHER Weapon Attachment...")
 time.sleep(4)

@@ -11,9 +11,21 @@ import string
 # Using time module for the function sleep
 import time
 
+# Adding colors to the terminal
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
 # Creating a menu option to let the user decide which type of characters want to use for the brute force
 menu_options = {
-    1: 'Digits (Default)            [0123456789]',
+    1: 'Digits                      [0123456789]',
     2: 'HEX Digits                  [0123456789abcdefABCDEF]',
     3: 'Lowercase letters           [abcdefghijklmnopqrstuvwxyz]',
     4: 'Uppercase letters           [ABCDEFGHIJKLMNOPQRSTUVWXYZ]',
@@ -35,8 +47,8 @@ if __name__=='__main__':
     while(True):
         try:
             print ()
-            print(' Below you will be asked to select the type of characters that you want to include in the attack.')
-            print(' Have in mind that selecting a password outside the character range will end in a infinite shooting without success.')
+            print(f' {bcolors.WARNING}Below you will be asked to select the type of characters that you want to include in the attack.{bcolors.ENDC}')
+            print(f' {bcolors.FAIL}Selecting a password OUTSIDE the character range will end in a infinite shooting WITHOUT success.{bcolors.ENDC}')
             print()
             option = int(input('Select your bullets (char type): '))
         except:
@@ -93,17 +105,20 @@ guess_password = ""
 
 # Adding sleep time and text output to make the script look more modern
 print()
-print("Preparing to launch the bullets rain..")
+print(f"{bcolors.OKGREEN}Preparing to launch the Bullets Rain..{bcolors.ENDC}")
+print()
 time.sleep(3)
 
 # If password is not equal to the one entered, it will keep performing the brute force attack showing the random characters used
 while(guess_password != password):
 	guess_password = random.choices(chars_list, k=len(password))
 	print("︻╦̵̵͇̿̿̿̿╤──"+ "   " + str(guess_password))
+	print()
 
 # If the password is equal to the one entered, it will show the final output (result)
 	if(guess_password == list(password)):
 		print("🆃🅷🅴 🅵🅾🆁🅲🅴🅳 🅿🅰🆂🆂🆆🅾🆁🅳 🆆🅰🆂 " + "".join(guess_password))
+		print()
 		break
 		exit
 
