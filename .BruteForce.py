@@ -1,16 +1,17 @@
-# We use random module to generate random numbers
+# Using random module to generate random numbers
 import random
 
-# We use pyautogui to generate a more modern and interactive input box outside the console
+# Using pyautogui to generate a more modern and interactive input box outside the console
 import pyautogui
 
-# We use string module to get all the possible characters, altough we will be using only numbers (PIN Cracking) to make the Brute Force Faster
-# Usefull for PIN Cracking# For string module documentation: https://docs.python.org/3/library/string.html
+# Using string module to get all the possible characters
+# For string module documentation: https://docs.python.org/3/library/string.html
 import string
 
-# We import time module for the function sleep
+# Using time module for the function sleep
 import time
 
+# Creating a menu option to let the user decide which type of characters want to use for the brute force
 menu_options = {
     1: 'Digits (Default)            [0123456789]',
     2: 'HEX Digits                  [0123456789abcdefABCDEF]',
@@ -21,12 +22,15 @@ menu_options = {
     7: 'All possible characters     [digits, letters, punctuation and whitespace]',   
 }
 
+# Making the menu interactive
 def print_menu():
     for key in menu_options.keys():
         print (key, '--', menu_options[key] )
-
+        
+# Print the menu
 print_menu()
 
+# Adding the values to each of the options on the menu
 if __name__=='__main__':
     while(True):
         try:
@@ -78,18 +82,26 @@ if __name__=='__main__':
             print('Invalid option. Running Default Mode (PIN Cracker).')
             break
 
+# Taking the character lists from the user selection
 chars_list = list(chars)
 
+# Password GUI
 password = pyautogui.password("Enter a PIN/Password: ")
+
+# Leaving the value equal to nothing since we dont want a fixed value, we want an output from the user
 guess_password = ""
+
+# Adding sleep time and text output to make the script look more modern
 print()
 print("Preparing to launch the bullets rain..")
 time.sleep(3)
 
+# If password is not equal to the one entered, it will keep performing the brute force attack showing the random characters used
 while(guess_password != password):
 	guess_password = random.choices(chars_list, k=len(password))
 	print("︻╦̵̵͇̿̿̿̿╤──"+ "   " + str(guess_password))
 
+# If the password is equal to the one entered, it will show the final output (result)
 	if(guess_password == list(password)):
 		print("Your PIN/Password is: " + "".join(guess_password))
 		break

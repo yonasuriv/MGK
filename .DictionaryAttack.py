@@ -31,4 +31,4 @@ for password in passwords_list:
     hashed_password = hashlib.sha256(password.encode('utf-8')).hexdigest()
     for username, hash in user_hash_dict.items():
         if hashed_password == hash:
-            print(f'MGK SHOOTED AN USER, LOOTING HIS PASSWORD:\n\n{username}:{password}\n')
+            print(f'︻╦̵̵͇̿̿̿̿╤── MGK SHOOTED AN USER, LOOTING HIS PASSWORD:\n\n{username}:{password}\n')
