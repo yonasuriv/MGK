@@ -46,43 +46,40 @@ print_menu()
 if __name__=='__main__':
     while(True):
         try:
-            print ()
-            print(f' {bcolors.WARNING}Below you will be asked to select the type of characters that you want to include in the attack.{bcolors.ENDC}')
-            print(f' {bcolors.FAIL}Selecting a password OUTSIDE the character range will end in a infinite shooting WITHOUT success.{bcolors.ENDC}')
             print()
-            option = int(input('Select your bullets (char type): '))
+            option = int(input('Select the bullets you want to use in the attack (1-7): '))
         except:
-            print('Wrong input. Please enter a number ...')
+            print('Wrong input. Please enter a number between 1 and 7.')
         # Check what choice was entered and act accordingly
         if option == 1:
             chars = string.digits
             print()
-            print('You selected DIGITS Bullets ' + "(" +chars+ ")")
+            print(f'{bcolors.WARNING}You selected DIGITS Bullets ' + "(" +chars+ ")")
             break
         elif option == 2:
             chars = string.hexdigits
             print()
-            print('You selected HEXDIGITS Bullets ' + "(" +chars+ ")")
+            print(f'{bcolors.WARNING}You selected HEXDIGITS Bullets ' + "(" +chars+ ")")
             break
         elif option == 3:
             chars = string.ascii_lowercase
             print()
-            print('You selected LOWERCASE Bullets ' + "(" +chars+ ")")
+            print(f'{bcolors.WARNING}You selected LOWERCASE Bullets ' + "(" +chars+ ")")
             break
         elif option == 4:
             chars = string.ascii_uppercase
             print()
-            print('You selected UPPERCASE Bullets ' + "(" +chars+ ")")
+            print(f'{bcolors.WARNING}You selected UPPERCASE Bullets ' + "(" +chars+ ")")
             break
         elif option == 5:
             chars = string.ascii_letters
             print()
-            print('You selected ABECEDARY Bullets ' + "(" +chars+ ")")
+            print(f'{bcolors.WARNING}You selected ABECEDARY Bullets ' + "(" +chars+ ")")
             break
         elif option == 6:
             chars = string.printable[:62]
             print()
-            print('You selected ARMOR-PIERCING Bullets ' + "(" +chars+ ")")
+            print(f'{bcolors.WARNING}You selected ARMOR-PIERCING Bullets ' + "(" +chars+ ")")
             break
         elif option == 7:
             chars = string.printable[:95]
@@ -96,6 +93,10 @@ if __name__=='__main__':
 
 # Taking the character lists from the user selection
 chars_list = list(chars)
+
+print()
+print(f'{bcolors.FAIL}WARNING: Selecting a Password OUTSIDE the Character Range will end in a Infinite Loop, shooting WITHOUT success.{bcolors.ENDC}')
+time.sleep(3)
 
 # Password GUI
 password = pyautogui.password("Enter a PIN/Password: ")
