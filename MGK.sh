@@ -31,10 +31,10 @@ read selection
 echo
 case $selection in
   1) python3 .BruteForce.py;;
-  2) python3 .Dictionary.py;;
+  2) python3 .DictionaryAttack.py;;
   3) sh .FileSplitter.sh;;
   4) python3 .HASHGEN.py;;
-  5) python3 .addpwd.py ;;
+  5) python3 .ADDPWD.py ;;
   9) open https://github.com/yonasuriv/MGK;;
   0) credits;;
   *) incorrect_selection_number;;
@@ -48,6 +48,7 @@ incorrect_selection_number() {
 }
 
 credits () {
+clear
 echo "$blink
 █▀▄▀█ ▄▀█ █▀▀ █░█ █ █▄░█ █▀▀   █▀▀ █░█ █▄░█   █▄▀ █▀▀ █░░ █░░ █▄█  
 █░▀░█ █▀█ █▄▄ █▀█ █ █░▀█ ██▄   █▄█ █▄█ █░▀█   █░█ ██▄ █▄▄ █▄▄ ░█░  

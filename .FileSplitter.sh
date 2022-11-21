@@ -17,7 +17,7 @@ echo "$yellow2 Enter the name of the file you want split: $end"
 echo
 read fileName
 echo
-echo "$yellow Enter the maximum number of lines that your file should have: $end"
+echo "$yellow Enter the maximum number of lines that your file can have (recommended: 5000): $end"
 echo
 read fileLines
 echo

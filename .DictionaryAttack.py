@@ -14,11 +14,11 @@ print()
 time.sleep(5)
 
 # Opens the passwords file on read mode as a file 
-with open ("PasswordsList.txt", "r") as f:
+with open ("Passwords-List.txt", "r") as f:
     passwords_list = f.read().splitlines()
 
 # Opens the Username and Hashed Passwords file on read mode as a file 
-with open("Username-HashedPasswords.txt", "r") as f:
+with open("Username-Hashed-Passwords.txt", "r") as f:
     username_hashed_passwords = f.read().splitlines()
     for user_hash in username_hashed_passwords:
         # Splitting the username from the hashes taking the : as entry point, using the 0 and 1 index to select the username and the hashed password
