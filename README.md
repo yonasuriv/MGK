@@ -13,7 +13,7 @@
 
 ----
 
-![Disclaimer](https://user-images.githubusercontent.com/59540565/202909148-f8ace8b2-47c0-4eb8-97d1-0b3d0ab9e324.png)
+![#Disclaimer](https://user-images.githubusercontent.com/59540565/202909148-f8ace8b2-47c0-4eb8-97d1-0b3d0ab9e324.png)
 
 ## ABOUT
 **Machine Gun Kelly** is a free password cracking software tool in Alpha.
@@ -143,6 +143,6 @@ To do it, simply open the `.HASHGEN.py` file and modify the line 8, changing the
 ----
 
 
-![QR-Updates](https://user-images.githubusercontent.com/59540565/202909147-18280669-b8f3-406e-9c46-f616403a2c62.png)
+![#QR-Updates](https://user-images.githubusercontent.com/59540565/202909147-18280669-b8f3-406e-9c46-f616403a2c62.png)
 
 
