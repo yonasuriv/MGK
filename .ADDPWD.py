@@ -1,4 +1,19 @@
-password = input("Enter the password you want add to the Dictionary: \n")
+# Adding colors to the terminal
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
 
-with open('Passwords-List.txt', 'a') as f:
+password = input(f"Enter the password you want add to the Dictionary: {bcolors.OKGREEN}")
+print(f"{bcolors.ENDC}")
+
+with open('Wordlists/Wordlist.txt', 'a') as f:
     print(password, file=f)
+    print(f"{bcolors.OKGREEN}{password} added to the wordlist successfully!{bcolors.ENDC}")
+    print()

@@ -84,11 +84,12 @@ if __name__=='__main__':
         elif option == 7:
             chars = string.printable[:95]
             print()
-            print('You selected GODKILLER Bullets ' + "(" +chars+ ")")
+            print(f'{bcolors.WARNING}You selected GODKILLER Bullets ' + "(" +chars+ ")")
             break
         else:
             chars = string.digits
-            print('Invalid option. Running Default Mode (PIN Cracker).')
+            print()
+            print(f'{bcolors.FAIL}Invalid option. {bcolors.WARNING}Running PIN CRACKER Default Mode (0123456789)')
             break
 
 # Taking the character lists from the user selection
@@ -96,7 +97,7 @@ chars_list = list(chars)
 
 print()
 print(f'{bcolors.FAIL}WARNING: Selecting a Password OUTSIDE the Character Range will end in a Infinite Loop, shooting WITHOUT success.{bcolors.ENDC}')
-time.sleep(3)
+# time.sleep(3)
 
 # Password GUI
 password = pyautogui.password("Enter a PIN/Password: ")
@@ -113,7 +114,7 @@ time.sleep(3)
 # If password is not equal to the one entered, it will keep performing the brute force attack showing the random characters used
 while(guess_password != password):
 	guess_password = random.choices(chars_list, k=len(password))
-	print("︻╦̵̵͇̿̿̿̿╤──"+ "   " + str(guess_password))
+	print("︻╦̵̵͇̿̿̿̿╤──  "+ "   " + str(guess_password))
 	print()
 
 # If the password is equal to the one entered, it will show the final output (result)
