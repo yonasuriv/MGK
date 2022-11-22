@@ -4,7 +4,7 @@
 # TABLE OF CONTENTS
 1. [About](#about)
 2. [Approach](#approach)
-3. [Launch the Script](#start)
+3. [Start MGK](#start)
 4. [Dependencies](#dependencies)
 5. [Configuration](#configuration)
 
