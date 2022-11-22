@@ -6,8 +6,8 @@
 3. [Launch the Script](#start)
 4. [Dependencies](#dependencies)
 5. [Features & Tools](#features)
-6. [Default Settings](#default-settings)
-7. [Configuration](#configuration)
+<!--6. [Default Settings](#default-settings)-->
+6. [Configuration](#configuration)
 
 
 ----
@@ -120,7 +120,7 @@ Supported Types: **MD5**, **SHA1**, **SHA224**, **SHA256**, **SHA384**, and **SH
 See [HASH Generator Configuration](#hash-generator-configuration)
 
 ## CONFIGURATION
-### DEFAULT SETTINGS
+<!--### DEFAULT SETTINGS
 
 - By default it comes with the **SHA-256 HASH** for encrypted password as an encryption standard for most of the websites on the internet.
 - By default it comes as a **PIN Cracker**, meaning it will only perform numbers attacks (0-9).
@@ -128,6 +128,7 @@ See [HASH Generator Configuration](#hash-generator-configuration)
 *The REASON for this is to prove the POTENTIAL of the script in matter of SECONDS.*
 
 **ALL THE DEFAULT SETTINGS CHAN BE CHANGED** (see below)
+-->
 
 ----
 
