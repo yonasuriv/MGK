@@ -13,7 +13,7 @@
 1. [Brute Force](#brute-force)
 2. [Dictionary Attack](#dictionary-attack)
 3. [Dictionary: File Splitter](#third-example)
-4. [Dictionary: Create & Add Custom Passwords](#create--add-custom-passwords-for-the-dictionary-attack)
+4. [Dictionary: Create & Add Custom Passwords](#create--add-custom-passwords)
 5. [HASH Generator](#hash-generator)
 ----
 
@@ -99,7 +99,8 @@ The **recommended** maximum lines for a TXT file is **5000 lines**.
 
 *Currently supports **ONLY TXT** Files.*
 
-### 4. DICTIONARY: CREATE & ADD CUSTOM PASSWORDS FOR THE DICTIONARY ATTACK
+### 4. DICTIONARY: CREATE & ADD CUSTOM PASSWORDS
+Improve your Dictionary Attack by adding your custom passwords without having to modify any file.
 
 ### 5. HASH GENERATOR
 It lets you convert ANY password into a Secure Hash.
