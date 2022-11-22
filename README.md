@@ -6,15 +6,14 @@
 2. [Approach](#approach)
 3. [Launch the Script](#start)
 4. [Dependencies](#dependencies)
-5. [Features](#features)
-6. [Configuration](#configuration)
+5. [Configuration](#configuration)
 
 ## FEATURES
 
 1. [Brute Force](#brute-force)
 2. [Dictionary Attack](#dictionary-attack)
 3. [Dictionary: File Splitter](#third-example)
-5. [Dictionary: Create & Add custom passwords](#addappend-custom-passwords-to-the-wordlist-directory-for-the-dictionary-attack)
+4. [Dictionary: Create & Add Custom Passwords](#create--add-custom-passwords-for-the-dictionary-attack)
 5. [HASH Generator](#hash-generator)
 ----
 
@@ -105,7 +104,7 @@ It lets you convert ANY password into a Secure Hash.
 Supported Types: **MD5**, **SHA1**, **SHA224**, **SHA256**, **SHA384**, and **SHA512**
 
 
-### CREATE & ADD CUSTOM PASSWORDS TO THE WORDLIST FOR THE DICTIONARY ATTACK
+### CREATE & ADD CUSTOM PASSWORDS FOR THE DICTIONARY ATTACK
 
 
 
