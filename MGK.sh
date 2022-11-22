@@ -20,7 +20,7 @@ echo "  3) Dictionary File Splitter$end"
 echo "  4) HASH Generator"
 echo "  5) Add a custom password to the Passwords Directory"
 echo ""
-echo "  9) Open$white MGK Documentation Manual$end $green(Official GitHub Repository, requires internet)$end"
+echo "  9) Open$cyan2 Documentation Manual$end"
 echo "  0) Exit"
 echo
 echo -n "Choose one of the above options: "
