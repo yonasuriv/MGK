@@ -1,9 +1,6 @@
 # Importing hashlib for the secure hashes and messages digests
 import hashlib
 
-# Importing time module for the function sleep
-import time
-
 user_hash_dict = {}
 
 # Opens the passwords file on read mode as a file 
@@ -24,4 +21,4 @@ for password in passwords_list:
     hashed_password = hashlib.sha1(password.encode('utf-8')).hexdigest()
     for username, hash in user_hash_dict.items():
         if hashed_password == hash:
-            print(f'︻╦̵̵͇̿̿̿̿╤── MGK SHOOTED AN USER, LOOTING HIS PASSWORD:\n\n{bcolors.FAIL}{username}:{password}{bcolors.ENDC}\n') # Using the bcloros from the DictionaryAttack.py 
+            print(f'︻╦̵̵͇̿̿̿̿╤── MGK SHOOTED AN USER, LOOTING HIS PASSWORD:\n\n{bcolors.FAIL}{username}:{password}{bcolors.ENDC}\n') # Using the bcolors from the DictionaryAttack.py
