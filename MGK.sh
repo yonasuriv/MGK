@@ -17,7 +17,7 @@ echo
 echo "  1)$green2 Brute Force$end"
 echo "  2)$green2 Dictionary Attack$end"
 echo "  3) Dictionary File Splitter$end"
-echo "  4) HASH Generator $green(Default: SHA-256)$end"
+echo "  4) HASH Generator"
 echo "  5) Add a custom password to the Passwords Directory"
 echo ""
 echo "  9) Open$white MGK Documentation Manual$end $green(Official GitHub Repository, requires internet)$end"

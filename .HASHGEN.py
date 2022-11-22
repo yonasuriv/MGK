@@ -1,14 +1,27 @@
 # Importing HASH Libraries 
 import hashlib
 
+# Adding colors to the terminal
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
 # Asking the user to type the password that want to be hashed
-password = input("Enter the password you want to generate a HASH: \n\n")
+password = input(f"Enter the password you want to generate a HASH: {bcolors.OKGREEN}")
+
 
 # By default, strings in Python are Unicode, meaning you have to encode it into UTF-8
 # Then it will print the password hashed using the method hashdigest, otherwise it will show you a hash object, and that's not what we want
 
 # MD5 HASH
-print()
+print(f"{bcolors.ENDC}")
 hash = hashlib.md5(password.encode("utf-8"))
 print("MD5:      " + hash.hexdigest())
 
