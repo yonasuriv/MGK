@@ -57,13 +57,15 @@ To start MGK, open the terminal and write `sh MGK.sh`
 The following dependencies are required to run the script:
 
  - `python3`
+ 
+## FEATURES
 
-### BRUTE FORCE
+### 1. BRUTE FORCE
 
 Supports all the characters availables, including **numbers**, **lowercase** and **uppercase letters**, **punctuation** and **whitespaces** (95+)
 
     
-### DICTIONARY ATTACK
+### 2. DICTIONARY ATTACK
  
 **MGK** comes with a dictionary of arround 900 potential passwords. 
  
@@ -85,7 +87,7 @@ The format of the lists are in an standard text file sorted in non-case-sensitiv
 >To avoid that, use the Dictionary File Splitter. (see below)
 
 
-### DICTIONARY FILE SPLITTER
+### 3. DICTIONARY: FILE SPLITTER
 Load your **MGK** with **Incendiary Bullets**, letting you split big texts files or dictionaries.
 
 Your file to be splitted should be placed in the **Wordlists** folder.
@@ -97,14 +99,15 @@ The **recommended** maximum lines for a TXT file is **5000 lines**.
 
 *Currently supports **ONLY TXT** Files.*
 
+### 4. DICTIONARY: CREATE & ADD CUSTOM PASSWORDS FOR THE DICTIONARY ATTACK
 
-### HASH GENERATOR
+### 5. HASH GENERATOR
 It lets you convert ANY password into a Secure Hash.
 
 Supported Types: **MD5**, **SHA1**, **SHA224**, **SHA256**, **SHA384**, and **SHA512**
 
 
-### CREATE & ADD CUSTOM PASSWORDS FOR THE DICTIONARY ATTACK
+
 
 
 
