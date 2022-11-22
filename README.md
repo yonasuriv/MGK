@@ -12,8 +12,8 @@
 
 1. [Brute Force](#brute-force)
 2. [Dictionary Attack](#dictionary-attack)
-3. [Dictionary: File Splitter](#third-example)
-4. [Dictionary: Create & Add Custom Passwords](#create--add-custom-passwords)
+3. [Dictionary File Splitter](#third-example)
+4. [Dictionary Custom Passwords Adder](#dictionary-custom-passwords-adder)
 5. [HASH Generator](#hash-generator)
 ----
 
@@ -87,7 +87,7 @@ The format of the lists are in an standard text file sorted in non-case-sensitiv
 >To avoid that, use the Dictionary File Splitter. (see below)
 
 
-### 3. DICTIONARY: FILE SPLITTER
+### 3. DICTIONARY FILE SPLITTER
 Load your **MGK** with **Incendiary Bullets**, letting you split big texts files or dictionaries.
 
 Your file to be splitted should be placed in the **Wordlists** folder.
@@ -99,7 +99,7 @@ The **recommended** maximum lines for a TXT file is **5000 lines**.
 
 *Currently supports **ONLY TXT** Files.*
 
-### 4. DICTIONARY: CREATE & ADD CUSTOM PASSWORDS
+### 4. DICTIONARY CUSTOM PASSWORDS ADDER
 Improve your Dictionary Attack by adding your custom passwords without having to modify any file.
 
 ### 5. HASH GENERATOR
