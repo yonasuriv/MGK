@@ -9,7 +9,13 @@
 5. [Features](#features)
 6. [Configuration](#configuration)
 
+## FEATURES
 
+1. [Brute Force](#brute-force)
+2. [Dictionary Attack](#dictionary-attack)
+3. [Dictionary: File Splitter](#third-example)
+5. [Dictionary: Create & Add custom passwords](#addappend-custom-passwords-to-the-wordlist-directory-for-the-dictionary-attack)
+5. [HASH Generator](#hash-generator)
 ----
 
 ![#Disclaimer](https://user-images.githubusercontent.com/59540565/202909148-f8ace8b2-47c0-4eb8-97d1-0b3d0ab9e324.png)
@@ -52,23 +58,11 @@ To start MGK, open the terminal and write `sh MGK.sh`
 The following dependencies are required to run the script:
 
  - `python3`
- 
-
-## FEATURES
-
-1. [Brute Force](#brute-force)
-2. [Dictionary Attack](#dictionary-attack)
-3. [Dictionary File Splitter](#third-example)
-4. [HASH Generator](#hash-generator)
-5. [Permanently add custom passwords to the dictionary](#addappend-custom-passwords-to-the-wordlist-directory-for-the-dictionary-attack)
-
----
 
 ### BRUTE FORCE
 
 Supports all the characters availables, including **numbers**, **lowercase** and **uppercase letters**, **punctuation** and **whitespaces** (95+)
 
----
     
 ### DICTIONARY ATTACK
  
@@ -91,7 +85,6 @@ The format of the lists are in an standard text file sorted in non-case-sensitiv
 > Opening a text file that's heavy it may cause your computer to freeze or even crash.
 >To avoid that, use the Dictionary File Splitter. (see below)
 
----
 
 ### DICTIONARY FILE SPLITTER
 Load your **MGK** with **Incendiary Bullets**, letting you split big texts files or dictionaries.
@@ -105,18 +98,15 @@ The **recommended** maximum lines for a TXT file is **5000 lines**.
 
 *Currently supports **ONLY TXT** Files.*
 
----
 
 ### HASH GENERATOR
 It lets you convert ANY password into a Secure Hash.
 
 Supported Types: **MD5**, **SHA1**, **SHA224**, **SHA256**, **SHA384**, and **SHA512**
 
----
 
-### ADD/APPEND CUSTOM PASSWORDS TO THE WORDLIST DIRECTORY FOR THE DICTIONARY ATTACK
+### CREATE & ADD CUSTOM PASSWORDS TO THE WORDLIST FOR THE DICTIONARY ATTACK
 
----
 
 
 ![#QR-Updates](https://user-images.githubusercontent.com/59540565/202909147-18280669-b8f3-406e-9c46-f616403a2c62.png)
