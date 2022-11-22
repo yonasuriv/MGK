@@ -76,7 +76,7 @@ The reason of this is to see the results in the fastest time possible, trying th
 **MGK** comes with a dictionary of arround 900 potential passwords. 
  
  Theres is also an option to upgrade MGK with two sets of dictionaries.
- These are located in the folder '**Passwords Atlas/Dictionary Downloads/**' as **torrent** files.
+ These are located in the folder '**Wordlists/Wordlist Upgrade/**' as **torrent** files.
  
 1. **Human-Killer**: Contains over 64 MILLON *Real Human Only* passwords leaked from various website databases.
 #### Size: 247 MB compressed. 684 MB uncompressed. 
@@ -97,7 +97,7 @@ The format of the lists are in an standard text file sorted in non-case-sensitiv
 ### DICTIONARY FILE SPLITTER
 Load your **MGK** with **Incendiary Bullets**, letting you split big texts files or dictionaries.
 
-Your file to be splitted should be placed in the **PasswordsAtlas** folder.
+Your file to be splitted should be placed in the **Wordlists** folder.
 
 The **recommended** maximum lines for a TXT file is **5000 lines**.
 

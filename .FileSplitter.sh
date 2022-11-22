@@ -22,5 +22,5 @@ echo
 read fileLines
 echo
 
-cd 'Passwords Atlas'
+cd 'Wordlists'
 split $fileName.txt -l $fileLines
