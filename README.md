@@ -1,12 +1,12 @@
 
 ![MGK](https://user-images.githubusercontent.com/59540565/202909145-17b11452-9393-46fb-9031-939a03ac7172.png)
+
 # TABLE OF CONTENTS
 1. [About](#about)
 2. [Approach](#approach)
 3. [Launch the Script](#start)
 4. [Dependencies](#dependencies)
-5. [Features & Tools](#features)
-<!--6. [Default Settings](#default-settings)-->
+5. [Features](#features)
 6. [Configuration](#configuration)
 
 
@@ -60,14 +60,13 @@ The following dependencies are required to run the script:
 2. [Dictionary Attack](#dictionary-attack)
 3. [Dictionary File Splitter](#third-example)
 4. [HASH Generator](#hash-generator)
+5. [Permanently add custom passwords to the dictionary](#addappend-custom-passwords-to-the-wordlist-directory-for-the-dictionary-attack)
 
 ---
 
 ### BRUTE FORCE
 
-**MGK** is by default coded to be a **PIN Cracker**, meaning that it will perform ONLY number attacks.
-
-The reason of this is to see the results in the fastest time possible, trying the combination of all ten numbers (**0-9**)
+Supports all the characters availables, including **numbers**, **lowercase** and **uppercase letters**, **punctuation** and **whitespaces** (95+)
 
 ---
     
@@ -86,7 +85,7 @@ The reason of this is to see the results in the fastest time possible, trying th
 The format of the lists are in an standard text file sorted in non-case-sensitive alphabetical order. 
 
 
-#### To update the Dictionary of MGK, simply add the passwords to the file `PasswordsList.txt`
+#### To update the Dictionary of MGK, simply add the passwords to the file `Wordlist.txt`
 
 > **WARNING:** 
 > Opening a text file that's heavy it may cause your computer to freeze or even crash.
@@ -102,47 +101,22 @@ Your file to be splitted should be placed in the **Wordlists** folder.
 The **recommended** maximum lines for a TXT file is **5000 lines**.
 
  - That means that the file would never exceed **100KB** 
- - Supports GitHub   Uploads
+ - Supports GitHub Uploads
 
 *Currently supports **ONLY TXT** Files.*
-
-### ADD/APPEND CUSTOM PASSWORDS TO THE WORDLIST DIRECTORY FOR THE DICTIONARY ATTACK
 
 ---
 
 ### HASH GENERATOR
-It lets you convert ANY password into SHA-256 HASH by default. 
-
-You can also modify it to convert the password into another Secure Hash Algorithm.
+It lets you convert ANY password into a Secure Hash.
 
 Supported Types: **MD5**, **SHA1**, **SHA224**, **SHA256**, **SHA384**, and **SHA512**
 
-See [HASH Generator Configuration](#hash-generator-configuration)
+---
 
-## CONFIGURATION
-<!--### DEFAULT SETTINGS
+### ADD/APPEND CUSTOM PASSWORDS TO THE WORDLIST DIRECTORY FOR THE DICTIONARY ATTACK
 
-- By default it comes with the **SHA-256 HASH** for encrypted password as an encryption standard for most of the websites on the internet.
-- By default it comes as a **PIN Cracker**, meaning it will only perform numbers attacks (0-9).
-
-*The REASON for this is to prove the POTENTIAL of the script in matter of SECONDS.*
-
-**ALL THE DEFAULT SETTINGS CHAN BE CHANGED** (see below)
--->
-
-----
-
-### CHANGE SETTINGS
-To change the configuration of the MGK:
-
- 1. Head to the directory **MGK** -> **View** -> **Show Hidden Files**. (or *CTRL+H*)
-
-#### HASH GENERATOR CONFIGURATION
-To do it, simply open the `.HASHGEN.py` file and modify the line 8, changing the sha256 for the one you like:
-
-`hash = hashlib.sha256(password.encode("utf-8"))`
-
-----
+---
 
 
 ![#QR-Updates](https://user-images.githubusercontent.com/59540565/202909147-18280669-b8f3-406e-9c46-f616403a2c62.png)
