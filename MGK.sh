@@ -1,4 +1,14 @@
 #!/bin/bash
+
+##################################
+#
+#   Developed by Jonathan Di Rico
+#       
+#   for WithSecure Company
+#
+##################################
+
+# Importing the colors palette from the below file
 . ./.assets/SHCSS.sh
 
 logo () {
