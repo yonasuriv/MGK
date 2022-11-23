@@ -33,7 +33,7 @@ It's main functionalities are **Dictionary Attacks** and **Brute Forcing**.
 ### APPROACH
 
  1. #### Created the Script on **Python**: **HASH Generator**.
- 	*Passwords are stored on web servers as hashes, not plain text (usually), so therefore, I've decided to use the hashlib module on python for secure hashes that supports MD5, SHA1, SHA224, SHA256, SHA384, and SHA512. I'll be using SHA256 since I think it's one of the most common used right now on the internet and to give the final program an extra functionality.*
+ 	*Passwords are stored on web servers as hashes, not plain text (usually), so therefore, I've decided to use the hashlib module on python for secure hashes that supports MD5, SHA1, SHA224, SHA256, SHA384, and SHA512. It usually started only using SHA256 since it's one of the most common used right now on the internet but lately I've ended up adding the 5 other types.
  2. #### Created the Script on **Python**: **Bruce Force**.
  	*For the Brute Force I've imported the random module to generate random numbers to perform the attack, the string module to retrieve the decided characters strings that should perform the attack and the pyautogui module to enter the password to bruteforce on a pop-up to give the script a more modern look.*
  3. #### Created the Script on **Python**: **Dictionary Attack**.
