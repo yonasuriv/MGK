@@ -10,7 +10,7 @@ class bcolors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
-password = input(f"Enter the password you want add to the Dictionary: {bcolors.OKGREEN}")
+password = input(f"Enter the password you want add to the Dictionary: {bcolors.HEADER}")
 print(f"{bcolors.ENDC}")
 
 # Open Default Wordlist for appending at the end of the file without truncating it. Creates a new file if it does not exist.
